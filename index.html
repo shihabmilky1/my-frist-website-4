@@ -3,16 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Shihab</title>
-    <style>
-     
-        
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <ul >
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a>
+            <ul class="dropdown">
+                <li><a href="">About 1</a></li>
+                <li><a href="">About 2</a></li>
+                <li><a href="">About 3</a></li>
+            </ul>
+            </li>
+            <li><a href="">Pro</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+
 
     <form action="">
-        <p>Name: <input type="text" placeholder="Name"></p>
+        <p>Name: <input type="text" placeholder="Name" title="Your Name"></p>
         <p>Telephone: <input type="tel" placeholder="Tele"></p>
         <p>Email: <input type="email" placeholder="Name"></p>
         <fieldset>
@@ -25,6 +41,7 @@
             <p><label for="bg"><input type="checkbox" id="bg">Bangla</label></p>
             <p><label for="en"><input type="checkbox" id="en">English</label></p>
         </fieldset>
+        <p><label for="cm">Add Your Comment<textarea name="" id="cm" cols="30" rows="10"></textarea></label></p>
     </form>
 
 
