@@ -5,45 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shihab</title>
     <style>
-        table{
-            border-collapse: collapse;
-        }
-        td,th{
-
-            border: 1px solid lightgray;
-            padding: 0 20px;
-
-        }
+     
         
     </style>
 </head>
 <body>
-<table>
-    <caption>My Info</caption>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Address</th>
-            <th>Number</th>
-        </tr>
-    </thead>
-  <tbody>
-    <tr>
-        <td>Shihab</td>
-        <td>Bilpar</td>
-        <td>01727</td>
-    </tr>
-    <tr>
-        <td>Pome</td>
-        <td>Satpai</td>
-        <td>01785</td>
-    </tr>
-    <tr>
-        <td>Pranto</td>
-        <td>Satpai</td>
-        <td>01736</td>
-    </tr>
-  </tbody>
+
+    <form action="">
+        <p>Name: <input type="text" placeholder="Name"></p>
+        <p>Telephone: <input type="tel" placeholder="Tele"></p>
+        <p>Email: <input type="email" placeholder="Name"></p>
+        <fieldset>
+            <legend>Select Country</legend>
+            <p><label for="uk"><input type="radio" id="uk" name="country">UK</label></p>
+            <p><label for="us"><input type="radio" id="us" name="country">US</label></p>
+        </fieldset>
+    </form>
+
+
+
+
+
+
 </table>
 </body>
 </html>
